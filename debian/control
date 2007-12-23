@@ -1,0 +1,25 @@
+Source: libnet-telnet-perl
+Maintainer: Debian Perl Project <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Gunnar Wolf <gwolf@debian.org>
+Priority: optional
+Section: perl
+Build-Depends: debhelper (>= 5)
+Homepage: http://search.cpan.org/dist/Net-Telnet/
+Vcs-Svn: svn://svn.debian.org/pkg-perl/trunk/libnet-telnet-perl/
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-perl/trunk/libnet-telnet-perl/
+Standards-Version: 3.7.3
+
+Package: libnet-telnet-perl
+Architecture: all
+Priority: optional
+Section: perl
+Depends: ${perl:Depends}
+Description: Script telnetable connections
+ Net::Telnet allows you to make client connections to a TCP port and
+ do network I/O, especially to a port using the TELNET protocol.
+ Simple I/O methods such as print, get, and getline are provided.
+ More sophisticated interactive features are provided because
+ connecting to a TELNET port ultimately means communicating with a
+ program designed for human interaction.  These interactive features
+ include the ability to specify a timeout and to wait for patterns to
+ appear in the input stream, such as the prompt from a shell.

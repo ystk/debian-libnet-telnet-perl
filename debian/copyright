@@ -1,0 +1,20 @@
+This is Debian GNU/Linux's prepackaged Net::Telnet.  This package was
+put together by Michael Alan Dorman <mdorman@debian.org>.  The
+original sources should always be available from the Comprehensive
+Perl Archive Network (CPAN). Visit <URL:http://www.perl.com/CPAN/> to
+find a CPAN site near you.
+
+The only change for the Debian package was the addition of the debian/
+files.
+
+                      Net::Telnet, version 3.01
+
+    Copyright (c) 1997 Jay Rogers.  All rights reserved.  This program
+    is free software; you can redistribute it and/or modify it under
+    the same terms as Perl itself (GPL or Artistic license).
+
+On Debian systems the complete text of the GPL and Artistic
+licenses can be found at:
+        /usr/share/common-licenses/GPL and
+        /usr/share/common-licenses/Artistic
+

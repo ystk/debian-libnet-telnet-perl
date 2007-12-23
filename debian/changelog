@@ -1,0 +1,61 @@
+libnet-telnet-perl (3.03-3) unstable; urgency=low
+
+  * Now _really_ transferred the package over to the group (yes, I had
+    forgotten to note it in debian/control the previous upload :-/
+  * Added homepage, vcs-svn and vcs-browser fields to debian/control
+
+ -- Gunnar Wolf <gwolf@debian.org>  Sun, 23 Dec 2007 12:05:58 -0600
+
+libnet-telnet-perl (3.03-2) unstable; urgency=low
+
+  * Handed over maintainership to the pkg-perl group
+  * Replaced the old (and full of staleness) debian/rules by dh-make-
+    perl's stock
+  * Bumped up dh-compat level to 5
+  * Bumped up standards-version to 3.7.3 (no changes needed)
+  * Moved debhelper from b-d-i to b-d
+
+ -- Gunnar Wolf <gwolf@debian.org>  Sun, 23 Dec 2007 11:13:12 -0600
+
+libnet-telnet-perl (3.03-1) unstable; urgency=low
+
+  * New upstream release
+  * New maintainer - Gunnar Wolf
+
+ -- Gunnar Wolf <gwolf@debian.org>  Sat,  8 Nov 2003 12:17:58 -0600
+
+libnet-telnet-perl (3.02-1.2) unstable; urgency=low
+
+  * Non Maintainer Upload by Gunnar Wolf
+  * Adds pointers to the correct license information files (Closes:
+    #157627)
+  * Fixes some lintian warnings
+  * Bumped up standards-version to 3.6.1
+
+ -- Gunnar Wolf <gwolf@debian.org>  Wed,  5 Nov 2003 09:35:17 -0600
+
+libnet-telnet-perl (3.02-1.1) unstable; urgency=low
+
+  * NMU.
+  * Add Build-Depends-Indep field.  Closes: #168395.
+
+ -- Daniel Schepler <schepler@debian.org>  Mon, 28 Jul 2003 14:53:01 -0700
+
+libnet-telnet-perl (3.02-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Michael Alan Dorman <mdorman@debian.org>  Mon,  9 Oct 2000 10:39:14 -0400
+
+libnet-telnet-perl (3.01-2) unstable; urgency=low
+
+  * Modified for new perl packages.
+  * Modified to use debhelper.
+
+ -- Michael Alan Dorman <mdorman@debian.org>  Sun,  4 Jul 1999 22:45:26 +0000
+
+libnet-telnet-perl (3.01-1) unstable; urgency=low
+
+  * Initial debianization
+
+ -- Michael Alan Dorman <mdorman@debian.org>  Fri, 12 Feb 1999 09:41:52 -0500
