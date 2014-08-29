@@ -1,3 +1,38 @@
+libnet-telnet-perl (3.04-1) unstable; urgency=low
+
+  [ gregor herrmann ]
+  * debian/control: Changed: Maintainer set to Debian Perl Group <pkg-
+    perl-maintainers@lists.alioth.debian.org> (was: Debian Perl Project
+    <pkg-perl-maintainers@lists.alioth.debian.org>).
+  * debian/watch: use dist-based URL.
+  * debian/control: Added: ${misc:Depends} to Depends: field.
+
+  [ Nathan Handler ]
+  * debian/watch: Update to ignore development releases.
+
+  [ Ansgar Burchardt ]
+  * debian/control: Convert Vcs-* fields to Git.
+
+  [ Salvatore Bonaccorso ]
+  * Change Vcs-Git to canonical URI (git://anonscm.debian.org)
+  * Change search.cpan.org based URIs to metacpan.org based URIs
+
+  [ Florian Schlichting ]
+  * Import Upstream version 3.04
+  * Switch to short-form debian/rules
+  * Switch to source format 3.0 (quilt)
+  * Refresh d/copyright (switch to machine-readable copyright-format 1.0)
+  * Bump dh compatibility to level 8 (no changes necessary)
+  * Bump Standards-Version to 3.9.4 (no further changes)
+  * Make short description a noun phrase
+  * Remove duplicate binary control fields "priority" and "section"
+  * Remove template comments from debian/watch
+  * New spelling.patch, pod-errors.patch
+  * Add lintian override for option "Dont"
+  * Add myself to uploaders
+
+ -- Florian Schlichting <fsfs@debian.org>  Mon, 16 Sep 2013 11:49:39 +0200
+
 libnet-telnet-perl (3.03-3) unstable; urgency=low
 
   * Now _really_ transferred the package over to the group (yes, I had

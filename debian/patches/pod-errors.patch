@@ -1,0 +1,41 @@
+Description: fix errors in pod
+Author: Florian Schlichting <fsfs@debian.org>
+Forwarded: https://rt.cpan.org/Public/Bug/Display.html?id=88706
+--- a/lib/Net/Telnet.pm
++++ b/lib/Net/Telnet.pm
+@@ -5164,8 +5164,6 @@
+ 
+ =back
+ 
+-=back
+-
+ =item
+ 
+ Use C<option_send()> to send a request to the remote side to enable or
+@@ -5173,6 +5171,8 @@
+ 
+ =back
+ 
++=back
++
+ 
+ =over 4
+ 
+@@ -5212,8 +5212,6 @@
+ Note, that if a request to enable is rejected then I<$coderef> is
+ still invoked even though the option didn't change.
+ 
+-=back
+-
+ =item
+ 
+ Here are the arguments passed to I<&$coderef>:
+@@ -5221,6 +5219,8 @@
+     &$coderef($obj, $option, $is_remote,
+               $is_enabled, $was_enabled, $buf_position);
+ 
++=back
++
+ =over 4
+ 
+ =item

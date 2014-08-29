@@ -1,0 +1,3 @@
+# these are option names, deliberately without single quote
+spelling-error-in-manpage usr/share/man/man3/Net::Telnet.3pm.gz Dont Don't
+spelling-error-in-manpage usr/share/man/man3/Net::Telnet.3pm.gz Dont Don't

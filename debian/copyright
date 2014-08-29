@@ -1,20 +1,31 @@
-This is Debian GNU/Linux's prepackaged Net::Telnet.  This package was
-put together by Michael Alan Dorman <mdorman@debian.org>.  The
-original sources should always be available from the Comprehensive
-Perl Archive Network (CPAN). Visit <URL:http://www.perl.com/CPAN/> to
-find a CPAN site near you.
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Source: https://metacpan.org/release/Net-Telnet
+Upstream-Contact: Jay Rogers <jay@rgrs.com>
+Upstream-Name: Net-Telnet
 
-The only change for the Debian package was the addition of the debian/
-files.
+Files: *
+Copyright: 1997, 2000, 2002, 2013, Jay Rogers <jay@rgrs.com>
+License: 
 
-                      Net::Telnet, version 3.01
+Files: debian/*
+Copyright: 1999, 2000, Michael Alan Dorman <mdorman@debian.org>
+ 2003, 2007, Gunnar Wolf <gwolf@debian.org>
+ 2003, Daniel Schepler <schepler@debian.org>
+ 2013, Florian Schlichting <fsfs@debian.org>
+License: Artistic or GPL-1+
 
-    Copyright (c) 1997 Jay Rogers.  All rights reserved.  This program
-    is free software; you can redistribute it and/or modify it under
-    the same terms as Perl itself (GPL or Artistic license).
+License: Artistic
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the Artistic License, which comes with Perl.
+ .
+ On Debian systems, the complete text of the Artistic License can be
+ found in `/usr/share/common-licenses/Artistic'.
 
-On Debian systems the complete text of the GPL and Artistic
-licenses can be found at:
-        /usr/share/common-licenses/GPL and
-        /usr/share/common-licenses/Artistic
-
+License: GPL-1+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 1, or (at your option)
+ any later version.
+ .
+ On Debian systems, the complete text of version 1 of the GNU General
+ Public License can be found in `/usr/share/common-licenses/GPL-1'.

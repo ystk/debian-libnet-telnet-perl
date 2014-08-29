@@ -1,0 +1,26 @@
+Description: fix typos
+Author: Florian Schlichting <fsfs@debian.org>
+Bug: https://rt.cpan.org/Public/Bug/Display.html?id=86360
+Forwarded: https://rt.cpan.org/Public/Bug/Display.html?id=88706
+--- a/lib/Net/Telnet.pm
++++ b/lib/Net/Telnet.pm
+@@ -3275,7 +3275,7 @@
+ 	&_negotiate_callback($self, $opt, $is_remote,
+ 			     $$is_enabled, $was_enabled, $opt_bufpos);
+     }
+-    elsif ($$state eq "wantno opposite") { # err: disable req answerd by enable
++    elsif ($$state eq "wantno opposite") { # err: disable req answered by enable
+ 	$$is_enabled = 1;
+ 	$$state = "yes";
+ 
+@@ -5064,8 +5064,8 @@
+ 
+ This method opens a TCP connection to I<$port> on I<$host> for the IP
+ address I<$family>.  If any of those arguments are missing then the
+-current attribute value for the object is used.  Specifing I<Host>
+-sets that attribute for the object.  Specifing any of the other
++current attribute value for the object is used.  Specifying I<Host>
++sets that attribute for the object.  Specifying any of the other
+ optional named parameters overrides the current setting.
+ 
+ The default IP address family is C<"ipv4">.  I<$family> may be set to
